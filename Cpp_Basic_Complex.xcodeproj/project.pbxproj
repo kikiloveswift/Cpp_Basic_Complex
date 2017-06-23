@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FCFBE03B1EFB6DFE00105A74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCFBE03A1EFB6DFE00105A74 /* main.cpp */; };
+		FCFBE0431EFB6E6100105A74 /* ComplexTest1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCFBE0411EFB6E6100105A74 /* ComplexTest1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		FCFBE0371EFB6DFE00105A74 /* Cpp_Basic_Complex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp_Basic_Complex; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFBE03A1EFB6DFE00105A74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FCFBE0411EFB6E6100105A74 /* ComplexTest1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ComplexTest1.cpp; sourceTree = "<group>"; };
+		FCFBE0421EFB6E6100105A74 /* ComplexTest1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ComplexTest1.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				FCFBE03A1EFB6DFE00105A74 /* main.cpp */,
+				FCFBE0411EFB6E6100105A74 /* ComplexTest1.cpp */,
+				FCFBE0421EFB6E6100105A74 /* ComplexTest1.hpp */,
 			);
 			path = Cpp_Basic_Complex;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFBE0431EFB6E6100105A74 /* ComplexTest1.cpp in Sources */,
 				FCFBE03B1EFB6DFE00105A74 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
