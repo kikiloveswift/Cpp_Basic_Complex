@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC3659FC1F00D26E0065FAB2 /* InheritOBJ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3659FA1F00D26E0065FAB2 /* InheritOBJ.cpp */; };
+		FC3659FF1F0107500065FAB2 /* MutableInherit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3659FD1F0107500065FAB2 /* MutableInherit.cpp */; };
+		FC6F26D71F025792006EB802 /* ReferenceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC6F26D51F025792006EB802 /* ReferenceTest.cpp */; };
+		FC76C9E81F038B3900FE5348 /* SizeClassTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC76C9E61F038B3900FE5348 /* SizeClassTest.cpp */; };
 		FCFBE03B1EFB6DFE00105A74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCFBE03A1EFB6DFE00105A74 /* main.cpp */; };
 		FCFBE0431EFB6E6100105A74 /* ComplexTest1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCFBE0411EFB6E6100105A74 /* ComplexTest1.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +28,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FC3659FA1F00D26E0065FAB2 /* InheritOBJ.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InheritOBJ.cpp; sourceTree = "<group>"; };
+		FC3659FB1F00D26E0065FAB2 /* InheritOBJ.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InheritOBJ.hpp; sourceTree = "<group>"; };
+		FC3659FD1F0107500065FAB2 /* MutableInherit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MutableInherit.cpp; sourceTree = "<group>"; };
+		FC3659FE1F0107500065FAB2 /* MutableInherit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MutableInherit.hpp; sourceTree = "<group>"; };
+		FC6F26D51F025792006EB802 /* ReferenceTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReferenceTest.cpp; sourceTree = "<group>"; };
+		FC6F26D61F025792006EB802 /* ReferenceTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReferenceTest.hpp; sourceTree = "<group>"; };
+		FC76C9E61F038B3900FE5348 /* SizeClassTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SizeClassTest.cpp; sourceTree = "<group>"; };
+		FC76C9E71F038B3900FE5348 /* SizeClassTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SizeClassTest.hpp; sourceTree = "<group>"; };
 		FCFBE0371EFB6DFE00105A74 /* Cpp_Basic_Complex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp_Basic_Complex; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFBE03A1EFB6DFE00105A74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FCFBE0411EFB6E6100105A74 /* ComplexTest1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ComplexTest1.cpp; sourceTree = "<group>"; };
@@ -61,6 +73,14 @@
 			isa = PBXGroup;
 			children = (
 				FCFBE03A1EFB6DFE00105A74 /* main.cpp */,
+				FC76C9E61F038B3900FE5348 /* SizeClassTest.cpp */,
+				FC76C9E71F038B3900FE5348 /* SizeClassTest.hpp */,
+				FC6F26D51F025792006EB802 /* ReferenceTest.cpp */,
+				FC6F26D61F025792006EB802 /* ReferenceTest.hpp */,
+				FC3659FD1F0107500065FAB2 /* MutableInherit.cpp */,
+				FC3659FE1F0107500065FAB2 /* MutableInherit.hpp */,
+				FC3659FA1F00D26E0065FAB2 /* InheritOBJ.cpp */,
+				FC3659FB1F00D26E0065FAB2 /* InheritOBJ.hpp */,
 				FCFBE0411EFB6E6100105A74 /* ComplexTest1.cpp */,
 				FCFBE0421EFB6E6100105A74 /* ComplexTest1.hpp */,
 			);
@@ -125,8 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3659FF1F0107500065FAB2 /* MutableInherit.cpp in Sources */,
 				FCFBE0431EFB6E6100105A74 /* ComplexTest1.cpp in Sources */,
+				FC3659FC1F00D26E0065FAB2 /* InheritOBJ.cpp in Sources */,
+				FC76C9E81F038B3900FE5348 /* SizeClassTest.cpp in Sources */,
 				FCFBE03B1EFB6DFE00105A74 /* main.cpp in Sources */,
+				FC6F26D71F025792006EB802 /* ReferenceTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +279,7 @@
 				FCFBE0401EFB6DFE00105A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
