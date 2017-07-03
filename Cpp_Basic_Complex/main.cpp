@@ -14,6 +14,7 @@
 #include "ReferenceTest.hpp"
 
 #include "SizeClassTest.hpp"
+#include "TemplateTest.hpp"
 using namespace std;
 
 //全局重载"-"运算符
@@ -94,10 +95,20 @@ void test5()
     calEachSize();
 }
 
+void test6()
+{
+    int max = getMax(3, 2); //隐式调用
+    cout << "max is " << max << endl;
+    
+    float max_f = getMax<float>(3.2, 2.99); //显示调用
+    cout << "max_f is " << max_f << endl;
+    
+}
+
 int main(int argc, const char * argv[])
 {
 //    thread t(test1);
 //    t.join();
-    test5();
+    test6();
     return 0;
 }
